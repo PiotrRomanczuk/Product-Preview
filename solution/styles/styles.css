@@ -17,7 +17,7 @@ body {
   border-radius: 20px;
   display: flex;
   flex-direction: row;
-  padding: 15px;
+  border-radius: 20px;
 }
 
 .attribution {
@@ -25,13 +25,27 @@ body {
   text-align: center;
 }
 
-.attribution a {
-  color: hsl(228deg, 45%, 44%);
+.left {
+  position: relative;
+  background-color: red;
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+  background-color: green;
 }
 
 img {
-  max-width: 50%;
-  max-height: 100%;
+  opacity: 50%;
+  position: absolute;
+  height: 100%;
+  margin-left: -50%;
+  border-radius: 30px;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
 }
 
 /*# sourceMappingURL=styles.css.map */
